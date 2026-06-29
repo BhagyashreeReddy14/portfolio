@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhagyashree Reddy | Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">BR<span>.</span></div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">ðŸ‘‹ Hello, I'm</p>
+      <h1 class="hero-name">Bhagyashree<br><span>Reddy</span></h1>
+      <p class="hero-title"><span id="typed"></span><span class="cursor">|</span></p>
+      <p class="hero-bio">A passionate developer from Bidar, Karnataka â€” building clean, scalable web applications and eager to make an impact in the tech world.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/BhagyashreeReddy14" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/bhagyashree-reddy-40a942285" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:bhagyashreereddy411@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="tel:8951305012"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-avatar">BR</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a <strong>Web Developer</strong> and a fresh B.E. graduate from Government Engineering College Bidar (2026), with a CGPA of 8.0. I completed my internship at <strong>KodNest Technologies, Bengaluru</strong>, where I gained hands-on experience in Java, MySQL, Frontend technologies, and Manual Testing.</p>
+          <p>I enjoy building efficient, user-friendly web applications and am always eager to learn new technologies. I believe in writing clean, maintainable code and delivering quality user experiences.</p>
+          <div class="about-info">
+            <div><i class="fas fa-map-marker-alt"></i> Bidar, Karnataka</div>
+            <div><i class="fas fa-graduation-cap"></i> B.E. Graduate 2026</div>
+            <div><i class="fas fa-envelope"></i> bhagyashreereddy411@gmail.com</div>
+            <div><i class="fas fa-phone"></i> 8951305012</div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="stat-card"><h3>8.0</h3><p>CGPA</p></div>
+          <div class="stat-card"><h3>2+</h3><p>Months Internship</p></div>
+          <div class="stat-card"><h3>4+</h3><p>Projects</p></div>
+          <div class="stat-card"><h3>4</h3><p>Languages Spoken</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Java</span><span>Express.js</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>Docker</span><span>Python</span><span>OpenCV</span><span>MATLAB</span><span>CAD</span><span>VS Code</span><span>Manual Testing</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-users"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span>Team Collaboration</span><span>Decision Making</span><span>Requirement Gathering</span><span>Communication</span><span>Time Management</span><span>Adaptability</span><span>Critical Thinking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-hand-paper"></i></div>
+          <h3>AirCanvas Using ML</h3>
+          <p>An HCI application enabling virtual drawing using hand gestures. Built with Python, OpenCV, and MediaPipe. Includes a voice assistant for changing tools and colors.</p>
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>ML</span></div>
+          <div class="project-links">
+            <a href="https://github.com/BhagyashreeReddy14" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-lock"></i></div>
+          <h3>MERN MySQL Auth CRUD</h3>
+          <p>Full stack authentication and dashboard app with JWT auth, password reset via email, protected routes, and full CRUD operations with status management.</p>
+          <div class="project-tags"><span>React</span><span>Node.js</span><span>MySQL</span><span>Express</span></div>
+          <div class="project-links">
+            <a href="https://github.com/BhagyashreeReddy14/mern-mysql-auth-crud" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-user-shield"></i></div>
+          <h3>Authentication System Style</h3>
+          <p>A fully styled authentication system featuring login, register, dashboard, forgot password, and reset password pages with modern UI design.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="project-links">
+            <a href="https://github.com/BhagyashreeReddy14/Authentication-System-Style" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-clock"></i></div>
+          <h3>Digital Clock Using Python</h3>
+          <p>A digital clock application built using Python with a clean GUI interface displaying real-time hours, minutes, and seconds.</p>
+          <div class="project-tags"><span>Python</span><span>Tkinter</span></div>
+          <div class="project-links">
+            <a href="https://github.com/BhagyashreeReddy14" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-calendar-check"></i></div>
+          <h3>Compliance Calendar Tracker</h3>
+          <p>A compliance calendar and tracker application built with Java Spring Boot, Python, and Docker. Includes AI-powered features for tracking regulatory deadlines.</p>
+          <div class="project-tags"><span>Java</span><span>Python</span><span>Docker</span><span>Spring Boot</span></div>
+          <div class="project-links">
+            <a href="https://github.com/BhagyashreeReddy14/compliance-calendar-tracker" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Education -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience & <span>Education</span></h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jan 2025 â€“ Mar 2025</span>
+            <h3>Software Development Intern</h3>
+            <h4>KodNest Technologies, Bengaluru</h4>
+            <p>Gained practical skills in Java, MySQL, Frontend Technologies, and Manual Testing. Contributed to real-world projects under industry professionals.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Cyber Security Certification</h3>
+            <h4>Karnataka German Technical Training Institute (KGTTI), Kalaburagi</h4>
+            <p>Completed certification in Cyber Security fundamentals and best practices.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 â€“ 2026</span>
+            <h3>Bachelor of Engineering (B.E.)</h3>
+            <h4>Government Engineering College Bidar</h4>
+            <p>CGPA: 8.0 â€” Specialized in Computer Science with focus on web technologies and software development.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022</span>
+            <h3>12th Grade â€” 80.5%</h3>
+            <h4>SC Gurukula PU College, Karadyal</h4>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020</span>
+            <h3>10th Grade â€” 89.9%</h3>
+            <h4>Bhagatsingh Eng Med High School</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>I'm currently open to new opportunities. Whether you have a question, a project idea, or just want to say hi â€” my inbox is always open!</p>
+          <div class="contact-items">
+            <div class="contact-item"><i class="fas fa-envelope"></i><a href="mailto:bhagyashreereddy411@gmail.com">bhagyashreereddy411@gmail.com</a></div>
+            <div class="contact-item"><i class="fas fa-phone"></i><a href="tel:8951305012">8951305012</a></div>
+            <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Bidar, Karnataka, India</span></div>
+            <div class="contact-item"><i class="fab fa-github"></i><a href="https://github.com/BhagyashreeReddy14" target="_blank">github.com/BhagyashreeReddy14</a></div>
+            <div class="contact-item"><i class="fab fa-linkedin"></i><a href="https://linkedin.com/in/bhagyashree-reddy-40a942285" target="_blank">linkedin.com/in/bhagyashree-reddy-40a942285</a></div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Interests & <span>Hobbies</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category"><h3><i class="fas fa-book"></i> Reading</h3><p style="color:var(--text2);font-size:0.9rem;margin-top:0.5rem">Non-fiction and current affairs books</p></div>
+        <div class="skill-category"><h3><i class="fas fa-paint-brush"></i> Drawing</h3><p style="color:var(--text2);font-size:0.9rem;margin-top:0.5rem">Creative sketching and artwork</p></div>
+        <div class="skill-category"><h3><i class="fas fa-cut"></i> Crafting</h3><p style="color:var(--text2);font-size:0.9rem;margin-top:0.5rem">DIY crafts and creative projects</p></div>
+        <div class="skill-category"><h3><i class="fas fa-video"></i> Video Editing</h3><p style="color:var(--text2);font-size:0.9rem;margin-top:0.5rem">Creating and editing videos</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Built by <span>Bhagyashree Reddy</span> Â© 2026</p>
+    <div class="footer-socials">
+      <a href="https://github.com/BhagyashreeReddy14" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/bhagyashree-reddy-40a942285" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:bhagyashreereddy411@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
